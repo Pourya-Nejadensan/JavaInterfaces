@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Playable mp = new MusicPlayer();
-        Playable vp = new VideoPlayer();
+        Playable musicPlayer = new MusicPlayer();
+        Playable videoPlayer = new VideoPlayer();
 
-        MediaController mc = new MediaController();
-        mc.playMedia(mp);
-        mc.playMedia(vp);
+        MediaController mediaController = new MediaController();
+        mediaController.playMedia(musicPlayer);
+        mediaController.playMedia(videoPlayer);
     }
 }
